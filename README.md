@@ -1,110 +1,26 @@
-# Welcome to our Cardiologs **coding challenge**.
+# card-triage-challenge
 
-The main goal of this interview is for us to assess your level of expertise in the Front-End ecosystem, but also to understand your developer habits and evaluate your coding skills!
-If it is a match, this is fantastic!! You are a step closer to be part of the team!! :blush:
+In this project, I accomplished the following:
 
-We offer 3 options during the Technical Interview: 
- 1. **Coding** a small web application
- 2. **Code reviewing** of an existing code base
- 3. **Open format** share some of the code you have developed and you are excited to discuss during the tech interview
+  1. Built a Triage Patient's card management system using React TypeScript, Tailwind CSS, and react-beautiful-dnd for drag and drop functionality.
+  2. Utilized TypeScript to enhance code readability, maintainability, and type safety throughout the project.
+  3. Set up the project using Vite, providing a fast and efficient development environment.
+  4. Fetched patient cards from the local server and displayed them in corresponding columns (Pending + Rejected and Done).
+  5. Employed the useContext hook along with React Context API for efficient data management and persistence across components.
+  6. Implemented the ability for users to change the card status from Pending or Rejected to Done and from Done to Rejected.
+  7. Added local filtering functionality by patient name and arrhythmia.
+  8. Used Tailwind CSS for styling, ensuring a clean and responsive user interface.
+  9. Started implementing unit tests with Jest but could only write brief tests for the App component due to time constraints.
 
-In all this 3 options it is important for us to have access of your technical interview code **BEFORE** the interview meeting, so we have time to review your work and prepare some constructive feedback! 
-The goal is for all of us to learn from each others.  
+Tech Stack:
+    React
+    TypeScript
+    Vite
+    Tailwind CSS
+    react-beautiful-dnd
+    Jest (for unit testing)
 
-## Share with us
-If you are using a private repository on GitHub, add us as a collaborator ([`baptooo`](https://github.com/baptooo) and [`georgios-mavroudis`](https://github.com/georgios-mavroudis)) so we can read your code.
+Time Spent:
+    I dedicated the maximum allotted time of 4 hours to this challenge, ensuring that I could showcase my skills and deliver the best possible performance within the given timeframe. Given my other commitments, such as exams, I strategically allocated approximately 1 hour per day to maintain a balanced workload.
 
-Otherwise share us your code in a zip file ( using this `git archive --format zip --output /full/path/to/zipfile.zip master` )
-
-# Option 1: Coding
-
-In this option we are going to code a small Web Application to help the Nurse to better manage the patient flow in the hospital.  
-
-During this session of ~2-4h, we will evaluate your coding skills on multiple aspects!!
-It is important to read all the instructions before to start your chrono ⏱!.
-
-### Instructions
-We are trying to build a Triage Patient's cards that can move cards from the _Todo_ column to the _Done_ column
-  - Fetch the patient cards using our local server [instructions](#Server)
-  - Display the patient cards in the corresponding column (_Pending_ + _Rejected_ and _Done_)
-  - Allow user to change the card status from _Pending_ or _Rejected_ to _Done_ and from _Done_ to _Rejected_.
-  - Add a local filtering by patient name and arrhythmia.
-  
-A particular attention will be taken to your Code Structure, your ability to express data models and UX-UI components structure.
-
-### Requirements
-You can choose **any** of the following solution, but we expect to have a clean file structure on your final project.
-
-Set up your project with one of our project CLI recommendations
-- Angular [cli](https://cli.angular.io/)
-- React [reactApp](https://create-react-app.dev/docs/getting-started/)
-- VueJS [vuecli](https://cli.vuejs.org/)
-- Vanilla
-
-Of course, you are free to use any of the **CSS naming** convention / methodology, or any **testing** libraries other than the one provided by the CLI.
-
-### Design specs
-Because no feature is developed without a nice pseudo-design, here is a quick sketch of how we think we can display the list. 
-
-![alt text][design]
-
-
-### Let's Go! Be **creative** !!
-
-### Bonus points
-- UI/UX design
-- Writing unit tests
-- CSS animations
-- Using Typescript
-
-### Server
-How to use it?
-Here is a simple instruction on how to set up your local server for the project
-
-1. First, install the node dependencies
-    `npm install`
-
-2. Setup your app
-
-    You can use any project generator you want, the only requirement is to place sources under `./app` and having a `start` script inside of the `package.json` file
-
-3. Run the local API server and your app script
-    `npm start`
-
-4. With everything set up, you can now access the list of cards with the following URL:
-    `GET http://localhost:3000/cards`
-
-
-### Timing
-*Don't forget to share with us the time you have spent on this project.*
-![alt text][rabbit]
-
-
-Feel free to give us your feedback on this Homework, we will be more than happy to adapt it :blue_heart:.
-
-
-# Option 2: Code reviewing
-
-You can jump to the `codereview/` folder and install the packages.
-
-You can fork this project and add some more commits to Fix / Improve the existing Homework.
-
-Don't forget to share your code with our Technical Interview reviewers [here](#share-with-us)
-
-# Option 3: Share your code
-
-You have written some nice code in the open source world (contributor of a librairy, a personal project...) 
-
-Let's talk about it during our interview!
-
-Please don't forget to share your **code**, functions or anything related so we can understand the context and being able to run the code :wink:
-
-
-
-## And of course HAVE FUN!!
-![alt text][sponge]
-
-
-[design]: https://github.com/CardioLogs/card-triage/raw/master/images/design.png
-[sponge]: https://github.com/CardioLogs/card-triage/raw/master/images/sponge.gif
-[rabbit]: https://github.com/CardioLogs/card-triage/raw/master/images/wonderland.gif
+Overall, the project showcases my ability to structure a React application, handle data management, implement drag and drop functionality, and design a user-friendly interface while adhering to time constraints.
